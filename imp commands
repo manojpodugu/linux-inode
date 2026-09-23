@@ -11,3 +11,10 @@ test.txt → 12345
 inode → filename
 ----------------
 12345 → /home/oracle/test.txt
+
+
+
+ls -ldi /tmp/inodedirectory --> Display the inode number of a directory
+"ls -ldi ." -->Display the inode number of the current directory
+stat . --> Display detailed information about the current directory
+find /tmp/inodedirectory -maxdepth 1 -printf '%i %p\n' --> Display inode number and path using find
