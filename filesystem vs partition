@@ -1,0 +1,17 @@
+/dev/sda                 ← physical disk
+   |
+   ├── /dev/sda1         ← partition
+   |       |
+   |       └── ext4      ← filesystem
+   |              |
+   |              ├── files
+   |              ├── directories
+   |              └── inodes
+   |
+   └── /dev/sda2         ← partition
+           |
+           └── xfs       ← filesystem
+                  |
+                  ├── files
+                  ├── directories
+                  └── inodes
