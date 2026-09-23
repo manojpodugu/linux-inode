@@ -1,0 +1,29 @@
+DIRECTORY (folder)
+       |
+       |---- filename
+       |       |
+       |       ↓
+       |    INODE
+       |       |
+       |       |-- permissions
+       |       |-- owner
+       |       |-- size
+       |       |-- timestamps
+       |       |
+       |       └── LOCATION of file data
+       |                    |
+       |                    ↓
+       |              DATA BLOCKS
+       |                    |
+       |                    ↓
+       |              "Hello Oracle"
+       |
+       |---- another filename
+       |       |
+       |       ↓
+       |     another INODE
+       |
+       └---- another directory
+               |
+               ↓
+             INODE
