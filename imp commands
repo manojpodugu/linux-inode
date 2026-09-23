@@ -1,1 +1,13 @@
 find /home/oracle -inum 12345 --> the path to the file with the inode number 12345.
+
+ls -li test.txt --> find test.txt inode along with its number.
+
+So you can work in both directions:
+===================================
+Filename → inode
+----------------
+test.txt → 12345
+
+inode → filename
+----------------
+12345 → /home/oracle/test.txt
