@@ -1,0 +1,1 @@
+find /home/oracle -inum 12345 --> the path to the file with the inode number 12345.
